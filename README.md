@@ -2,8 +2,41 @@
 layout: default
 ---
 
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+    
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Portfolio</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-\<body id="top">
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/vendor.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
+</head>
+
+<body id="top">
 
 
     <!-- preloader
@@ -309,6 +342,7 @@ layout: default
     <!-- portfolio
     ================================================== -->
     <!--<section id="portfolio" class="s-portfolio target-section">
+
         <div class="row s-portfolio__header">
             <div class="column large-6 medium-8 tab-full">
                 <div class="section-intro" data-num="03" data-aos="fade-up">
@@ -321,6 +355,7 @@ layout: default
         </div>  s-porfolio__header -->
 
         <!--<div class="row s-porfolio__list block-large-1-2 block-tab-full collapse">
+
             <div class="column" data-aos="fade-up">
                 <div class="folio-item">
                     <div class="folio-item__thumb">
@@ -438,9 +473,13 @@ layout: default
     <!-- testimonials
     ================================================== -->
    <!-- <section id="testimonials" class="s-testimonials">
+
         <div class="row collapse">
+
             <div class="column large-full">
+
                 <div class="testimonial-slider" data-aos="fade-up">
+
                     <div class="testimonial-slider__slide">
                         <p>
                         Molestiae incidunt consequatur quis ipsa autem nam sit enim magni. Voluptas tempore rem. 
@@ -511,6 +550,7 @@ layout: default
         <!-- CTA
         ================================================== -->
         <!--<div class="s-cta">
+
             <div class="row">
                 <div class="column large-full">
                     <h2 class="section-desc" data-aos="fade-up">
@@ -650,6 +690,4 @@ layout: default
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
 
-\<body\>
-
-       
+</body>
