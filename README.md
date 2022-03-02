@@ -1,2 +1,0 @@
-# pruckpoung.github.io
-Portfolio 
